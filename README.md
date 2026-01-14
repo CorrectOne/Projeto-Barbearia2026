@@ -1,2 +1,129 @@
-# Projeto-Barbearia2026
-Web-based system for a barbershop developed in PHP using the MVC pattern, with user authentication, secure registration with password hashing, and integration with a MySQL database.
+# 💈 Sistema Web para Barbearia
+
+Este projeto é um sistema web desenvolvido em **PHP** com **MySQL**, utilizando o padrão de arquitetura **MVC (Model-View-Controller)**.  
+O objetivo do sistema é servir como base para a organização e autenticação de usuários em um ambiente de barbearia.
+
+O projeto foi desenvolvido com foco em **aprendizado acadêmico**, boas práticas de backend e segurança básica de autenticação.
+
+---
+
+## 🚀 Funcionalidades
+
+- ✅ Tela de login
+- ✅ Cadastro de usuários
+- ✅ Senhas protegidas com **hash (bcrypt)**
+- ✅ Autenticação de usuários
+- ✅ Controle de sessão
+- ✅ Arquitetura MVC
+- ✅ Conexão com banco de dados MySQL
+
+---
+
+## 🧱 Arquitetura MVC
+
+O projeto segue o padrão **MVC**, separando responsabilidades:
+
+- **Model**  
+  Responsável pela lógica de negócio e acesso ao banco de dados.
+
+- **View**  
+  Responsável pelas páginas HTML e formulários.
+
+- **Controller**  
+  Responsável por receber as requisições, processar dados e definir o fluxo da aplicação.
+
+---
+
+## 📁 Estrutura de Pastas
+
+Barbearia/
+│
+├── config/
+│ └── conexao.php
+│
+├── controller/
+│ ├── LoginController.php
+│ ├── CadastroController.php
+│ └── LogoutController.php
+│
+├── model/
+│ └── UsuarioModel.php
+│
+├── view/
+│ ├── login.php
+│ ├── cadastro.php
+│ └── home.php
+│
+├── style/
+│ └── style.css
+│
+├── DBcabeleireiro.sql
+└── index.php
+
+yaml
+Copiar código
+
+---
+
+## 🔐 Segurança
+
+- As senhas são armazenadas utilizando:
+  ```php
+  password_hash($senha, PASSWORD_DEFAULT);
+A autenticação é feita com:
+
+php
+Copiar código
+password_verify($senha, $hash);
+O sistema não armazena senhas em texto puro.
+
+🛠️ Tecnologias Utilizadas
+PHP 8+
+
+MySQL
+
+HTML5
+
+CSS3
+
+Padrão MVC
+
+XAMPP / WAMP (ambiente local)
+
+⚙️ Como Executar o Projeto
+Clone este repositório:
+
+bash
+Copiar código
+git clone https://github.com/CorrectOne/Barbearia.git
+Importe o banco de dados:
+
+Arquivo: DBcabeleireiro.sql
+
+Configure a conexão:
+
+Arquivo: config/conexao.php
+
+Inicie o servidor local (XAMPP/WAMP)
+
+Acesse no navegador:
+
+arduino
+Copiar código
+http://localhost/Barbearia
+🎓 Finalidade Acadêmica
+Este projeto foi desenvolvido como parte dos estudos em Desenvolvimento de Sistemas, com foco em backend, banco de dados e organização de código.
+
+📌 Próximas melhorias (planejadas)
+Validação de email duplicado
+
+Mensagens de erro amigáveis
+
+CRUD completo de clientes
+
+Proteção de rotas com sessão
+
+Painel administrativo
+
+👨‍💻 Autor
+Projeto desenvolvido para fins educacionais.
