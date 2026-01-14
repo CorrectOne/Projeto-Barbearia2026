@@ -69,10 +69,10 @@ Barbearia/
   password_hash($senha, PASSWORD_DEFAULT);
 A autenticação é feita com:
 
-password_verify($senha, $hash);
+    password_verify($senha, $hash);
 O sistema não armazena senhas em texto puro.
 
-🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 PHP 8+
 
 MySQL
@@ -85,7 +85,7 @@ Padrão MVC
 
 XAMPP / WAMP (ambiente local)
 
-⚙️ Como Executar o Projeto
+## ⚙️ Como Executar o Projeto
 Clone este repositório:
 
 git clone https://github.com/CorrectOne/Barbearia.git
@@ -102,10 +102,10 @@ Inicie o servidor local (XAMPP/WAMP)
 Acesse no navegador:
 
 http://localhost/Barbearia
-🎓 Finalidade Acadêmica
+## 🎓 Finalidade Acadêmica
 Este projeto foi desenvolvido como parte dos estudos em Desenvolvimento de Sistemas, com foco em backend, banco de dados e organização de código.
 
-📌 Próximas melhorias (planejadas)
+## 📌 Próximas melhorias planejadas
 Validação de email duplicado
 
 Mensagens de erro amigáveis
