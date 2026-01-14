@@ -35,7 +35,7 @@ O projeto segue o padrão **MVC**, separando responsabilidades:
 ---
 
 ## 📁 Estrutura de Pastas
-
+```
 Barbearia/
 ├── config/
 │ └── conexao.php
@@ -58,7 +58,7 @@ Barbearia/
 │
 ├── DBcabeleireiro.sql
 └── index.php
-
+```
 
 ---
 
@@ -66,7 +66,7 @@ Barbearia/
 
 - As senhas são armazenadas utilizando:
   ```php
-  password_hash($senha, PASSWORD_DEFAULT);
+    password_hash($senha, PASSWORD_DEFAULT);
 A autenticação é feita com:
 
     password_verify($senha, $hash);
@@ -83,7 +83,7 @@ CSS3
 
 Padrão MVC
 
-XAMPP / WAMP (ambiente local)
+XAMPP
 
 ## ⚙️ Como Executar o Projeto
 Clone este repositório:
@@ -106,15 +106,12 @@ http://localhost/Barbearia
 Este projeto foi desenvolvido como parte dos estudos em Desenvolvimento de Sistemas, com foco em backend, banco de dados e organização de código.
 
 ## 📌 Próximas melhorias planejadas
-Validação de email duplicado
 
-Mensagens de erro amigáveis
+Funcao de agendamento de cortes
 
-CRUD completo de clientes
+Niveis de permisssoes entre Admnistradores e Clientes
 
-Proteção de rotas com sessão
+Verificações 
 
-Painel administrativo
-
-👨‍💻 Autor
+## 👨‍💻 Autor
 Projeto desenvolvido para fins educacionais.
