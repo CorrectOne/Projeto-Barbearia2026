@@ -60,8 +60,6 @@ Barbearia/
 ├── DBcabeleireiro.sql
 └── index.php
 
-yaml
-Copiar código
 
 ---
 
@@ -72,8 +70,6 @@ Copiar código
   password_hash($senha, PASSWORD_DEFAULT);
 A autenticação é feita com:
 
-php
-Copiar código
 password_verify($senha, $hash);
 O sistema não armazena senhas em texto puro.
 
@@ -93,8 +89,6 @@ XAMPP / WAMP (ambiente local)
 ⚙️ Como Executar o Projeto
 Clone este repositório:
 
-bash
-Copiar código
 git clone https://github.com/CorrectOne/Barbearia.git
 Importe o banco de dados:
 
@@ -108,8 +102,6 @@ Inicie o servidor local (XAMPP/WAMP)
 
 Acesse no navegador:
 
-arduino
-Copiar código
 http://localhost/Barbearia
 🎓 Finalidade Acadêmica
 Este projeto foi desenvolvido como parte dos estudos em Desenvolvimento de Sistemas, com foco em backend, banco de dados e organização de código.
