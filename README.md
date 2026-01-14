@@ -37,7 +37,6 @@ O projeto segue o padrão **MVC**, separando responsabilidades:
 ## 📁 Estrutura de Pastas
 
 Barbearia/
-│
 ├── config/
 │ └── conexao.php
 │
